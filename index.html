@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eba Limited</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-blue-600 text-white p-4 flex items-center justify-between sticky top-0 z-50 rounded-md">
+        <div class="font-bold text-xl">Eba Limited</div>
+
+        <div class="hidden md:flex space-x-4">
+            <a href="#" class="hover:text-blue-200 transition-colors">Home</a>
+            <a href="#" class="hover:text-blue-200 transition-colors">About</a>
+            <a href="#" class="hover:text-blue-200 transition-colors">Posts</a>
+            <a href="#" class="hover:text-blue-200 transition-colors">Sign</a>
+            <a href="#" class="hover:text-blue-200 transition-colors">Login</a>
+        </div>
+
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="text-white focus:outline-none" aria-label="Toggle Mobile Menu">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+            <div id="mobile-menu" class="hidden absolute top-16 right-0 bg-blue-600 shadow-lg rounded-md py-2 px-4 space-y-2">
+                <a href="#" class="block hover:text-blue-200 transition-colors">Home</a>
+                <a href="#" class="block hover:text-blue-200 transition-colors">About</a>
+                <a href="#" class="block hover:text-blue-200 transition-colors">Posts</a>
+                <a href="#" class="block hover:text-blue-200 transition-colors">Sign</a>
+                <a href="#" class="block hover:text-blue-200 transition-colors">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+    <div style="border-radius: 10px;">
+        <img src="IMG_2112.jpeg" alt="the CEO of erasto biseko.com">
+        <img src="img one.jpg" alt="Elton with uncle">
+    <img src="img two.jpg" alt="Also this its uncle and Etanga">
+    <img src="IT CAN BE.png" alt="The logo of Nakai financial Limited">
+    <img src="emmma.jpg" alt="emmanuely with Pengotype">
+    <img src="lecture Emma.jpg" alt="With emmanuely in the theater">
+    <img src="with CEO PRESIDENT.jpg" alt="The one who provide the rournment to his boys">
+    <img src="with the CEO of the chooir.jpg" alt="the header of the accapella choir">
+    <img src="another one.jpg" alt="the same Guy">
+      <img src="they called her g.jpg" alt="the one who knows well how to sell ubuyu">
+      <img src="outside the uni.jpg" alt="the view of moshi kilimanjaro Tanzania">
+       <img src="View.jpg" alt="also its moshi">
+       <img src="HRM human resource.jpg" alt="the lady from the department of human resourceand management">
+       <img src="librarian.jpg" alt="she is so cool and awesome what ever you will define her">
+       <caption>She is from CLIS</caption>
+        <img src="church.jpg" alt="we are also need God in everything">
+        <img src="roseee.jpg" alt="the cool girl but not">
+        <img src="me with father.jpg" alt="The first man who need you to have successfully than he's">
+        <img src="young bro.jpg" alt="My young brother with our youngest sister">
+      <img src="awesome rebekka.jpg" alt="the friend of mine">
+
+      
+    </div>
+</body>
+</html>
